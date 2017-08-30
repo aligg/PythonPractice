@@ -1,11 +1,8 @@
 import json
 import oauth2 as oauth
+import secret.sh
 
-consumer_key =  "TRcqjgdkuaglGxJgY1miN0rtP"
-consumer_secret = "J4CU0QuYbtIz5N6yAw9x6oV5xvJvR9nr3OhpFdk0ezQK48xhXi"
 
-access_token = "324385851-ICKUvX0eEdcXZm5XiE6QgPUbfADqHdFuX8p2A2Bd"
-access_secret = "cO8N2Z0sTgdxR8LfB5G4Sr2ZAvK6rLF2CVzxKDufr7cbK"
 
 consumer = oauth.Consumer(key=consumer_key, secret=consumer_secret)
 access_token = oauth.Token(key=access_token, secret=access_secret)
