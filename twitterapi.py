@@ -1,8 +1,11 @@
 import json
 import oauth2 as oauth
-import secret.sh
+from secret import keys 
 
-
+consumer_key = keys["consumer_key"]
+consumer_secret = keys["consumer_secret"]
+access_token = keys["access_token"]
+access_secret = keys["access_secret"]
 
 consumer = oauth.Consumer(key=consumer_key, secret=consumer_secret)
 access_token = oauth.Token(key=access_token, secret=access_secret)
